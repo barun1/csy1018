@@ -1,0 +1,11 @@
+.sidebar{
+	padding: 3%; width: 70%;   
+	justify-content: space-between; margin-right: 10px;
+	border-style:solid ; background: lightyellow;
+	font-size: 20px;
+	font-style: bold;
+}
+.sidebar1 ul li a{
+	font-size: 20px;
+	font-style: bold;
+}

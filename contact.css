@@ -1,0 +1,6 @@
+section{
+width: 100%; height: 100%; display: flex;
+}
+.pi{
+	width: 60%; margin: 2%; text-align: left;
+}

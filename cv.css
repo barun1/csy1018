@@ -1,0 +1,14 @@
+section{
+	color:black;	height: 100%;	width: 100%; display: flex; 
+}
+.rightform{
+	width: 30%; height:100%; display: block; padding: 2%; margin-right: 10px;
+}
+
+.rightform img{
+	width: 100%;
+	height: auto;
+}
+section h3{
+	
+}

@@ -1,0 +1,11 @@
+section div{
+	display: flex; padding:0;
+}
+section div ul{
+	display: flex;
+	padding:0;
+}
+section div ul a img{
+	height: 20px;
+	height: auto;
+}
