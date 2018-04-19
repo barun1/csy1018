@@ -104,28 +104,43 @@
 		<div class="rightform">
 			<h3>Creat your CV</h3>
 				<fieldset>
-					First Name:<br>
-					<input type="text" name="fulname"><br>
-					Last Name:<br>
+					<form method="POST" action="" onsubmit="return validate(this)">
+					<label> First Name:</label>
+					<input type="text" name="firstname"><br>
+					<label>Last Name:</label>
 					<input type="text" name="lastname"><br>
-					Date of Birth:<br>
+					<label>Date of Birth:</label>
 					<input type="Date" name="dob"><br>
-					Sex:<br>
+					<label>Sex:</label>
 					<input type="checkbox" name="male" value="male">Male<br>
 					<input type="checkbox" name="female" value="female">female<br>
 					<input type="checkbox" name="other" value="other">other<br>
-					Contact:<br>
+					<label>Contact:</label>
 					<input type="text" name="contact"><br>
-					Qualification:<br>
+					<label>Qualification:</label>
 					<input type="text" name="qualification"><br>
-					Languages:<br>
+					<label>Languages:</label>
 					<input type="text" name="languages"><br>
-					Career Objective:<br>
+					<label>Career Objective:</label>
 					<input type="text" name="career"><br><br>
 					<input type="submit" name="submit"> 
 					<input type="reset">
-
-				</fieldset><br>
+			</form>
+		</fieldset>
+			<script type="text/javascript">
+      function validate(fm){
+         if(fm.firstname.value==''){
+            alert('please enter the firstname');
+            fm.firstname.focus();
+            return false;
+         }
+         if(fm.lastname.value==''){
+            alert('please enter the lastname');
+            fm.lastname.focus();
+            return false;
+         }
+			</script>
+			<br>
 				<fieldset>
 					<h3>Join Human Right Organization Today</h3>
 					<a href="https://www.facebook.com/rbhyouths/">
@@ -133,7 +148,7 @@
 				</fieldset>
 
 
-			</form>
+			
 		</div>
 	</section>
 	<footer>
