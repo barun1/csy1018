@@ -3,32 +3,39 @@
 <head>
 	<title>CV</title>
 	<link rel="stylesheet" type="text/css" href="cv.css">
-	<link rel="stylesheet" type="text/css" href="head&foot.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
+		<!-- header tag -->
 			<h1>WELCOME TO MY PAGE </h1>
 				
 	</header>
-
+<!-- header is closed -->
 	<nav>
+		<!-- navigation for the website -->
 		<ul>
-			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/index.html">HOME</a></li>
-			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/about.html">ABOUT US</a></li>
-			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/social.html">SOCIAL MEDI</a></li>
-			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/modelsgp.html"> MODLES GP</a></li>
+			<!-- menubar list -->
+			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/index.html">HOME </a></li>
+			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/about.html">ABOUT ME</a></li>
+			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/social.html">SOCIAL MEDIA</a></li>
+			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/cv.html">CV</a></li>
+			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/modlesgp.html"> MODLES GP</a></li>
 			<li><a href="file:///C:/Users/Dell/Desktop/web-pro/contact.html"> CONTACT</a></li>
 		</ul>
 	</nav>
-
+<!-- nav closeed -->
 	<section>
+		<!-- section started -->
 			
 			<div class="owncv">
+				<!-- division class owncv is created -->
 				<fieldset>
 					<h2>Barun Kuinkel</h2><br>
+					<!-- title of div oencv -->
 			 <h3>Personal Information</h3>
 				<table style="width:100%">
+					<!-- create table by the code -->
 					<tr >
 						<td>Father Name</td>	<td>:</td>	<td>Ramesh Sharma</td>
 					</tr>
@@ -46,6 +53,7 @@
 						<td>E-mail Address</td>	<td>:</td>	<td>barun.kuinkel10@gmail.com</td></tr>
 					</tr>
 				</table>
+				<!-- table is closed -->
 					<h3>Educational Qualifications</h3>
 					<table style="width: 100%">
 						<tr>
@@ -105,14 +113,17 @@
 			<h3>Creat your CV</h3>
 				<fieldset>
 					<form method="POST" action="" onsubmit="return validate(this)">
+						<!-- create the form by the code below -->
 					<label> First Name:</label>
 					<input type="text" name="firstname"><br>
 					<label>Last Name:</label>
 					<input type="text" name="lastname"><br>
 					<label>Date of Birth:</label>
 					<input type="Date" name="dob"><br>
+					<!-- date type is used to add date feature -->
 					<label>Sex:</label>
 					<input type="checkbox" name="male" value="male">Male<br>
+					<!-- for option checkbox is used -->
 					<input type="checkbox" name="female" value="female">female<br>
 					<input type="checkbox" name="other" value="other">other<br>
 					<label>Contact:</label>
@@ -127,39 +138,27 @@
 					<input type="reset">
 			</form>
 		</fieldset>
-			<script type="text/javascript">
-      function validate(fm){
-         if(fm.firstname.value==''){
-            alert('please enter the firstname');
-            fm.firstname.focus();
-            return false;
-         }
-         if(fm.lastname.value==''){
-            alert('please enter the lastname');
-            fm.lastname.focus();
-            return false;
-         }
-			</script>
-			<br>
-				<fieldset>
+		<fieldset>
+			<!-- difn field for advertisement -->
 					<h3>Join Human Right Organization Today</h3>
 					<a href="https://www.facebook.com/rbhyouths/">
 					<img src="ai.jpg"></a>
-				</fieldset>
-
-
-			
+				</fieldset>	
 		</div>
 	</section>
+	<!-- section closed -->
 	<footer>
+		<!-- footer part started -->
 		<div class="socialicons">
 			<h3> Follow On Social site</h3>
 			<ul>
 				<li>
+					<!-- link for social site -->
 					<a href="https://www.facebook.com/barun.kuinkel" target="_blank"><img src="fb.jpg"></a>
 					<a href="https://twitter.com/barun_kuinkel"><img src="twitter.jpg"></a>
 					<a href="https://www.instagram.com/barun_kuinkel"><img src="instagram.jpg"></a>
 					<a href="https://np.linkedin.com/in/barun-kuinkel-129721113"><img src="linkedin.jpg"></a>
+					<!-- a is used to hyper link -->
 				</li>
 			</ul>
 
